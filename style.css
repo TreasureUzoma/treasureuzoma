@@ -93,7 +93,7 @@ margin-top:-230px;
 padding:50px 10px;
 color:#525b60;
 font-size:18px;
-font-family:Arial,sans-serif;
+font-family:Nunito;
 line-height:30px;
 }
 .rw {
@@ -131,7 +131,7 @@ color:#6622ee;
 width:78%;
 height:48px;
 font-size:17px;
-font-family:Tahoma,Arial,sans-serif;
+font-family:Nunito;
 }
 .cwm {
  }
@@ -164,7 +164,7 @@ background:transparent;
 border-radius:25px;
 border:3px solid #5CDB95;
 font-size:18px;
-font-family:Tahoma,Arial,sans-serif;
+font-family:Nunito;
 height:48px;
 width:70%;
 outline:none;
@@ -179,7 +179,7 @@ padding-top:50px;
 }
 .it {
 color:white;
-font-family:Arial,sans-serif;
+font-family:Nunito;
 line-height:27px;
 width:70%;
 }
@@ -212,7 +212,7 @@ text-decoration:none;
    color:black;
    text-decoration:underline;
    font-size:17px;
-   font-family:Arial,sans-serif;
+   font-family:Nunito;
  }
  .img11 {
    width:100%;
