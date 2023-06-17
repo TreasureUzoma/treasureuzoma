@@ -1,3 +1,12 @@
+
+.word {
+  margin: auto;
+  color:black;
+  font-family:nunito;
+  font-size:30px;
+  font-weight:bolder;
+}
+
 body {
 font-family:Nunito;
 }
