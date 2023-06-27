@@ -1,3 +1,4 @@
+
 function menu(){
 var x = document.getElementById("mi")
 x.style.display = "block"
@@ -18,9 +19,8 @@ z.style.display ="none"
 
 var words = [
   'Hi, I\'m a Web Developer',
-  'Designer',
-  'Innovator',
-  'Tutor',
+  'I\'m an  innovator',
+  'I\' a Tutor',
   'I preach Possibility Thinking',
   'I\'m an AI Enthusiast'
 ];

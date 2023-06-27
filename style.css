@@ -56,13 +56,33 @@ font-size:53px;
  width:90%;
  
  }
-.imm {
-width:85%;
+ .imm {
+  width:85%;
+ }
+ 
+.profilepic {
+width:55%;
+margin-top:-350px;
 }
+.word {
+   margin-top:-100px;
+}
+
 .headerinfo {
 color:black;
 padding:13px;
 font-family:Nunito;
+}
+.socials {
+ background:transparent;
+ color:white;
+}
+.socials .cl {
+color:#6622ee;
+border-radius:5px;
+font-size:20px;
+line-height:43px;
+margin:0 14px;
 }
 .headertext {
 color:black;
@@ -97,6 +117,29 @@ align-content:center;
 margin:5%;
 margin-top:-230px;
 
+}
+.moredetails article {
+  display:inline-block;
+  width:30%;
+}
+.moredetails article {
+   line-height:0px;
+}
+.dbtn {
+  background:#22233f;
+  color:white;
+  padding:21px 27px;
+  font-family:nunito;
+  border:none;
+  outline:none;
+  border-radius:5px;
+  margin:20px 0;
+  font-weight:bold;
+  font-size:16px;
+}
+.dbtn:active  {
+  background:white;
+  color:#22233f;
 }
 .meo {
 padding:50px 10px;
