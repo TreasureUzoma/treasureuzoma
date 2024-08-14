@@ -1,283 +1,324 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-  <meta http-equiv="Content-Type" content="text/html;" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Meet Treasure Uzoma, Full Stack Website Developer with 4+ years of experience in several tech stack." />
-  <meta property="og:title"
-    content="Treasure Uzoma Portfolio showing his skills, projects, career hostory, and more...">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Treasure Uzoma - Portfolio</title>
-  <script type="text/javascript" src="main.js">
-
-  </script>
-  <script type="text/javascript">
-
-    // Wrap every letter in a span
-    var textWrapper = document.querySelector('.ml3');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-    anime.timeline({loop: true})
-      .add({
-        targets: '.ml3 .letter',
-        opacity: [0, 1],
-        easing: "easeInOutQuad",
-        duration: 2250,
-        delay: (el, i) => 150 * (i + 1)
-      }).add({
-        targets: '.ml3',
-        opacity: 0,
-        duration: 1000,
-        easing: "easeOutExpo",
-        delay: 1000
-      });
-  </script>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <nav>
-  
-    <button id="mo" class="menubutton" onclick="menu()">
-      <hr>
-      <hr>
-      <hr>
-    </button>
-    <button id="mc" class="menucbutton" onclick="menuc()">&times;</button>
-    <center>
-      <div class="header">
-
-        <div class="menuitems" id="mi"><br>
-        
-          <a href="index.html" class="infotext" style="color:#5577af;"><svg style="fill:#5577af;"
-              xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-              <path
-                d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
-            </svg> Home</a><br><br>
-          <a href="myprojects.html" class="infotext"><svg style="" xmlns="http://www.w3.org/2000/svg" height="1em"
-              viewBox="0 0 512 512">
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-              <path
-                d="M501.1 395.7L384 278.6c-23.1-23.1-57.6-27.6-85.4-13.9L192 158.1V96L64 0 0 64l96 128h62.1l106.6 106.6c-13.6 27.8-9.2 62.3 13.9 85.4l117.1 117.1c14.6 14.6 38.2 14.6 52.7 0l52.7-52.7c14.5-14.6 14.5-38.2 0-52.7zM331.7 225c28.3 0 54.9 11 74.9 31l19.4 19.4c15.8-6.9 30.8-16.5 43.8-29.5 37.1-37.1 49.7-89.3 37.9-136.7-2.2-9-13.5-12.1-20.1-5.5l-74.4 74.4-67.9-11.3L334 98.9l74.4-74.4c6.6-6.6 3.4-17.9-5.7-20.2-47.4-11.7-99.6.9-136.6 37.9-28.5 28.5-41.9 66.1-41.2 103.6l82.1 82.1c8.1-1.9 16.5-2.9 24.7-2.9zm-103.9 82l-56.7-56.7L18.7 402.8c-25 25-25 65.5 0 90.5s65.5 25 90.5 0l123.6-123.6c-7.6-19.9-9.9-41.6-5-62.7zM64 472c-13.2 0-24-10.8-24-24 0-13.3 10.7-24 24-24s24 10.7 24 24c0 13.2-10.7 24-24 24z" />
-            </svg> My projects</a><br><br>
-          <a href="contactme.html" class="infotext"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
-              viewBox="0 0 512 512">
-              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-              <path
-                d="M96 0C60.7 0 32 28.7 32 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H96zM208 288h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H144c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM512 80c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V80zM496 192c-8.8 0-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm16 144c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V336z" />
-            </svg> Contact Me</a>
-
-
-
-  </nav>
-  <br><div><br><br><br>
-  <span class="socials" ><br><br>
-  <a class="cl" href="https://www.github.com/TreasureUzoma"><i class="fa fa-github"></i></a><br>
-  <a class="cl" href="https://www.facebook.com/profile.php?id=100085862181551" ><i class="fa fa-facebook" ></i></a><br>
-  <a class="cl" href="https://twitter.com/treasureuzoma1"><i class="fa fa-twitter"></i> </a><br>
-  <a class="cl" href="https://wa.me/+2349133354993"><i class="fa fa-whatsapp"></i></a>
-  
-  </span>
-  <center>
-  <img class="profilepic"  src="https://i.ibb.co/g66mvsm/Picsart-23-06-27-03-34-22-672.jpg" alt="My Picture" border="0"><br>
-  </center>
-  </div>
-  <header><center>
-  <div class="word">
-  
-  </div>
-  
-
-      <p class="headertext">I design and code beautifully simple things, and I love what I do.</p>
-      
-      <img src="https://www.linkpicture.com/q/yay-1.jpg" class="imm" alt="My Setup">
-    </center>
-  </header>
-  <div class="moredetails">
-    <center>
-      <h2 class="greet"><strong class="ml3">Hi I'm Treasure. Nice to meet you.</strong></h2>
-       <img width="40%" style="border-radius:50px"   src="https://i.ibb.co/nwQHjfb/Polish-20230627-132809773.png" alt="Treasure Uzoma Picture" border="0">
-      <p class="details">Since beginning my journey as a freelance web designer over 4 years ago, I've done remote work
-        for agencies, consulted for startups, and collaborated with talented people to create digital products for both
-        business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my
-        chops one web design problem at a time.</p>
-        <br>
-        <article>
-        <h1 class="greet" >04+</h1><p class="details" >Years Experience</p>
-        </article>
-        <article>
-        <h1 class="greet" >9+</h1><p class="details">Completed Projects</p>
-        </article>
-        <article>
-        <h1 class="greet" >02+</h1><p class="details" >Happy Clients</p>
-        </article>
-        <br>
-        <button class="dbtn"   onclick="(window.open('https://drive.google.com/file/d/1lMwuLa1fChaUdpD3euXPrwnb8344Spmw/view?usp=drivesdk'))">Download CV <i class="fa fa-download" ></i></button><br>
-    </center><br><br>
-  </div>
-  <main>
-    <div class="meall"><br><br><br><br>
-      <center>
-        <div class="meo">
-          <b>WEB DEVELOPER + DESIGNER</b>
-
-          <p class="meop">Clean, modern designs - optimized for performance, search engines, and coverting users to
-            customers.</p>
+  <head>
+    <title>Treasure Uzoma - Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="https://infinityswapapp.vercel.app/me.jpg" type="image/png">
+    <meta property="og:image" content="https://infinityswapapp.vercel.app/me.jpg">
+    <meta property="image" content="https://infinityswapapp.vercel.app/me.jpghttps://infinityswapapp.vercel.app/me.jpg">    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="utf-">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Author" content="Treasure Uzoma">
+  </head>
+  <body>
+    <nav>
+      <b class="text-logo">Treasure Uzoma ⚡</b>
+      <a href="https://www.github.com/TreasureUzoma" target="_blank"><i class="fab fa-github"></i></a>
+    </nav>
+    <header>
+      <div class="grid">
+        <div class="grid-item">
+          <div class="item">
+            <h1 class="gradient-text">Creative Frontend Developer.</h1>
+            </div>
+          <div class="item">
+            <p>I code and design simple beautiful things, and I love what I do.</p>
+            </div>
+          <div class="item">
+            <p>3+ years of experience. Specialized in building products, while  ensuring a seamless web experience for clients across Africa.</p>
+            </div>
+          <div class="item">
+          <p>Highly skilled at progressive enhancement, design systems & UI Engineering - performance and scalability are top objectives on my radar.</p>
         </div>
-        <div class="meo">
-          <b>INNOVATOR</b>
-
-
-          <p class="meop">Innovating new methods for making customers use much more suitable and comfortable.</p>
-        </div>
-        <div class="meo">
-          <b>TUTOR</b>
-
-          <p class="meop">Raising new Generations of Web developers, guiding and helping fellows craft out their works.
-          </p>
-        </div>
-    </div>
-    <div class="mystack" ><center>
-    <h2 class="rw" >Technologies & Skills</h2>
-    <pre>HTMl + CSS</pre> <pre>Javascript</pre> <pre>PHP</pre> <pre>MySQL</pre> <pre>Python</pre> <pre>Firebase</pre> <pre>Git/Github</pre> <pre>SEO</pre> <pre>React.JS</pre>
-    </center></div>
-    <div class="myworks">
-      <center>
-        <h2 class="rw">My Recent Work</h2>
-
-        <p class="rww">Here are a few past web projects I've worked on.</p>
-      </center>
-      <div class="works">
-        <div class="work1">
-        <img class="img11" src="https://www.linkpicture.com/q/Picsart_23-08-20_19-49-21-940.jpg" ><center>
-        <pre><h2>ROGEGBE.com <span>2023</span></h2></pre>
-        <p class="detail11">Engaging church website highlighting community events, sermons, and values. Designed for easy navigation and a meaningful online presence. </p>
-        <br>
-        <a target="_blank" href="https://rogegbe.onrender.com" ><button class="dsite">Visit Site</button></a>
-        </center>
-        </div>
-        <br><br>
-        <div class="work1">
-        <img class="img11" src="https://www.linkpicture.com/q/Picsart_23-08-22_02-30-05-882.jpg" ><center>
-        <pre><h2>InfinitySwap <span>2023</span></h2></pre>
-        <p class="detail11">A website for my peronal startup for swapping giftcard for cash and othr assets.</p>
-        <br>
-        <a target="_blank" href="https://infinityswap.onrender.com" ><button class="dsite">Visit Site</button></a>
-        </center>
-        </div><br><br>
-                <div class="work1">
-          <img class="img11" src="https://www.linkpicture.com/q/Picsart_23-10-13_03-14-37-045.jpg">
-          <center>
-            <pre><h2>Portfolio website <span>2023</span></h2></pre>
-            <p class="detail11">A portfolio website for a UI/UX deveveloper.</p>
+          <div class="item">
             <br>
-            <a target="_blank" href="https://jokegenerator.onrender.com"><button class="dsite">Visit Site</button></a>
-          </center>
+            <section class="social-icons-container">
+              <a href="https://www.facebook.com/profile.php?id=100085862181551" target="_blank" class="social-icons"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/TreasureUzoma1" class="social-icons"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/naira_jasper" class="social-icons"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/treasure-uzoma-40a789260" class="social-icons"><i class="fab fa-linkedin"></i></a>
+            </section>
+          </div>
         </div>
-
-        <br><br>
-        <div class="work1">
-          <img class="img11" src="https://i.ibb.co/xsZZzRT/Picsart-23-04-22-14-38-39-647.jpg">
-          <center>
-            <pre><h2>MasterCRYPT <span>2022</span></h2></pre>
-            <p class="detail11">A superb working technology for encrypting and decryting texts.</p>
-            <br>
-            <a target="_blank" href="https://mastercrypt.repl.co"><button class="dsite">Visit Site</button></a>
-          </center>
-        </div><br><br>
-        <div class="work1">
-          <img class="img11" src="https://www.linkpicture.com/q/Picsart_23-04-25_21-53-35-781.jpg">
-          <center>
-            <pre><h2>Dev Joke Generator <span>2022</span></h2></pre>
-            <p class="detail11">A developer joke-type generator.</p>
-            <br>
-            <a target="_blank" href="https://jokegenerator.onrender.com"><button class="dsite">Visit Site</button></a>
-          </center>
-        </div>
-
-        <br><br>
-        <div class="work1">
-        <img class="img11" src="https://i.ibb.co/8swWzL8/Picsart-23-06-07-14-22-55-894.jpg">
-        <center>
-        <pre><h2>Quotely <span>2023</span></h2></pre>
-        <p class="detail11">A mobile app with over 500+ quotes including multivational quotes, anti depression quotes, finance quotes, etc.</p>
-        <br>
-        <a target="_blank" href="https://drive.google.com/file/d/1g6EkCsM0Y5Mx1TvhJV8TaqmirLCvv703/view?usp=drivesdk"><button class="dsite">Download app</button></a>
-        </center>
-        </div>
-        
-        <br><br>
-        
-        <div class="work1">
-          <img class="img11" src="https://www.linkpicture.com/q/project2_6.png">
-          <center>
-            <pre><h2>Country Code Checker <span>2021</span></h2></pre>
-            <p class="detail11">A website that allows users to check all the country codes, phone codes, ISO codes,
-              telephone codes, dialing codes.</p>
-            <br>
-            <a target="_blank" href="https://countrycode.onrender.com"><button class="dsite">Visit Site</button></a>
-          </center>
-        </div>
-        <br><br>
-        <div class="work1">
-          <img class="img11" src="https://www.linkpicture.com/q/project3_1.png">
-          <center>
-            <pre><h2>Roman Numeral Converter <span>2022</span></h2></pre>
-            <p class="detail11">A website that allows users to convert; numbers to roman numeral and roman numeral to
-              number, with ease.</p>
-            <br>
-            <a target="_blank" href="https://romannumeral.onrender.com"><button class="dsite">Visit Site</button></a>
-          </center>
-        </div>
-        <br><br>
-
+        <div class="grid-item">
+          <div class="avatar-container">
+            <img src="/images/hero.png" alt="avatar" class="avatar-pic">
+        <div class="avatar-border"></div>
       </div>
-      <br><br><br>
-      <center>
-        <a href="myprojects.html" class="smp">See all my projects</a>
-      </center>
-      <br><br>
-      <span><br><br>
-        <center><br>
-          <h3 class="rw">Interested in collaborating with me?</h3>
-          <p class="rww">I'm always open to discussing product websites work or partnership opportunities.</p>
-          <a href="contactme.html"><button id="cwm">Start a conversation</button></a><br>
-      </span><br>
-
-      <area><br><br><br><br><br>
-      <div class="footer">
-        <h2 class="sp"> Start a project</h2>
-        <br>
-        <p class="it">Interested in working together? We should queue up a time to chat. I'll buy the coffee.</p>
-        <br>
-        <a href="contactme.html"><button class="ldt">Let's do this</button></a>
       </div>
+      </div>
+    </header>
+    <main>
+      <h2>Services<span class="bounce">🔥</span></h2>
+      <p>These are some of the services I offer and I got you covered</p>
+      <section class="block-container">
+        <div class="block-1 block-left">
+          <div>
+            <h3>WEB DEVELOPMENT</h2>
+            <p>I create beautiful interfaces with HTML, CSS, TailwindCss, Bootstrap & JavaScript.</p>
+          </div>
+        </div>
+        <div class="block-1 block-right">
+          <div>
+            <h3>RESPONSIVE DESIGN</h3>
+            <p>Building websites and applications that work seamlessly on various devices and screen sizes, from desktop to smartphones.</p>
+          </div>
+        </div>
+        <div class="block-1 block-left">
+          <div>
+            <h3>API INTEGRATIONS</h2>
+            <p>Integrating frontend interfaces with backend services and APIs to fetch and display data in real time</p>
+          </div>
+        </div>
+        <div class="block-1 block-right">
+          <div>
+            <h3>VERSION CONTROL</h3>
+            <p>Using version control systems like Git/GitHub to collaborate with other developers and manage code changes effectively.</p>
+          </div>
+        </div>
+        <div class="block-1 block-left">
+          <div>
+            <h3>CONTINUOUS LEARNING</h2>
+            <p>Staying updated with the latest frontend technologies, trends, and best practices to deliver modern and innovative solutions.</p>
+          </div>
+        </div>
+        <div class="block-1 block-right">
+          <div>
+            <h3>TECHNICAL SUPPORT</h3>
+            <p>Providing technical supports to troubleshoot frontend-related issues.</p>
+          </div>
+        </div>
+      </section>
+      <br>
+      <h2>Recent Works<span class="bounce">👨‍🍳</span></h2>
+      <p>Here are some of my fun and recent projects I’ve worked on</p>
+      <section class="block-container">
+        <div class="block-2">
+          <div>
+            <big>Gappay Website </big>
+            <p>JavaScript + firebaseAPI + HTML + CSS</p>
+            <p>A landing page for a fintech app designed to simplify and streamline financial transactions and management for individuals.</p>
+            <p><a href="https://www.gappay.ng" target="_blank"><span class="arrow-up"><i class="fas fa-arrow-up"></i></span> View</a></p>
+          </div>
+        </div>
+        <div class="block-2">
+          <div>
+            <big>IPinfo</big>
+            <p>JavaScript + ipifyAPI + HTML + CSS</p>
+            <p>Generates information about every IP address inputted.</p>
+            <p><a href="https://ipinfo-sepia.vercel.app" target="_blank"><span class="arrow-up"><i class="fas fa-arrow-up"></i></span> View</a></p>
+          </div>
+        </div>
+        <div class="block-2">
+          <div>
+            <big>LinkLite - Link Shortener</big>
+            <p>JavaScript + TinyUrlAPI + HTML + CSS</p>
+            <p>Link shortener website for converting long cumbersome links to shorter links</p>
+            <p><a href="https://linklite-theta.vercel.app/" target="_blank"><span class="arrow-up"><i class="fas fa-arrow-up"></i></span> View</a></p>
+          </div>
+        </div>
+        <div class="block-2">
+          <div>
+            <big>GitHub Roast AI</big>
+            <p>JavaScript + firebaseAPI + GitHub API + Gemini API + HTML + CSS</p>
+            <p>A websites that roasts gitHub profiles using AI</p>
+            <p><a href="https://github-profile-roast.vercel.app" target="_blank"><span class="arrow-up"><i class="fas fa-arrow-up"></i></span> View</a></p>
+          </div>
+        </div>
+        <div class="block-2">
+          <div>
+            <big>Slack Landing Page Clone</big>
+            <p>JavaScript  + HTML + CSS</p>
+            <p>A clone of slack website</p>
+            <p><a href="https://slacklandingpageclone.vercel.app/" target="_blank"><span class="arrow-up"><i class="fas fa-arrow-up"></i></span> View</a></p>
+          </div>
+        </div>
+        <div class="block-2">
+          <div>
+            <big>InfinitySwap</big>
+            <p>JavaScript + firebaseAPI + paystackAPI + HTML + CSS</p>
+            <p>Web app for converting gift cards to cash</p>
+            <p><a href="https://InfinitySwapWeb.vercel.app" target="_blank"><span class="arrow-up"><i class="fas fa-arrow-up"></i></span> View</a></p>
+          </div>
+        </div>
+        <div class="block-2">
+          <div>
+            <big>Recipe Chat Bot</big>
+            <p>JavaScript + API + HTML + CSS</p>
+            <p>Chatbot for giving recipe and preparation instructions for over 1000 different food</p>
+            <p><a href="https://dreamforge-eta.vercel.app" target="_blank"><span class="arrow-up"><i class="fas fa-arrow-up"></i></span> View</a></p>
+          </div>
+        </div>
+        <div class="block-2">
+          <div>
+            <big>Code Byte</big>
+            <p>JavaScript + firebaseAPI + HTML + CSS</p>
+            <p>A web design agency portfolio</p>
+            <p><a href="https://codebytehq.web.app" target="_blank"><span class="arrow-up"><i class="fas fa-arrow-up"></i></span> View</a></p>
+          </div>
+        </div>
+        <div class="block-2">
+          <div>
+            <big>ROGEGBE</big>
+            <p>JavaScript + HTML + CSS</p>
+            <p>Church website that communicates about the church, goals, and more</p>
+            <p><a href="https://rogegbe.onrender.com" target="_blank"><span class="arrow-up"><i class="fas fa-arrow-up"></i></span> View</a></p>
+          </div>
+        </div>
+        <div class="block-2">
+          <div>
+            <big>Portfolio Website</big>
+            <p>JavaScript + firebaseAPI + HTML + CSS</p>
+            <p>A portfolio website for a UI/UX designer</p>
+            <p><a href="https://azeezmalikhub.web.app" target="_blank"><span class="arrow-up"><i class="fas fa-arrow-up"></i></span> View</a></p>
+          </div>
+        </div>
+      </section>
+      <br>
+      <h2>Skills<span class="bounce">🤹</span></h2>
+      <p>These are some of the skills I’ve learnt over the past</p>
+      <section class="block-container">
+        <div class="block-3 block-left">
+          <div>
+            <h3>HTML</h3>
+          </div>
+        </div>
+        <div class="block-3 block-right">
+          <div>
+            <h3>CSS</h3>
+          </div>
+        </div>
+        <div class="block-3 block-left">
+          <div>
+            <h3>JavaScript</h3>
+          </div>
+        </div>
+        <div class="block-3 block-right">
+          <div>
+            <h3>Firebase</h3>
+          </div>
+        </div>
+        <div class="block-3 block-left">
+          <div>
+            <h3>Bootstrap</h3>
+          </div>
+        </div>
+        <div class="block-3 block-right">
+          <div>
+            <h3>SEO</h3>
+          </div>
+        </div>
+        <div class="block-3 block-left">
+          <div>
+            <h3>Tailwind CSS</h3>
+          </div>
+        </div>
+        <div class="block-3 block-right">
+          <div>
+            <h3>Git</h3>
+          </div>
+        </div>
+        <div class="block-3 block-left">
+          <div>
+            <h3>GitHub</h3>
+          </div>
+        </div>
+        <div class="block-3 block-right">
+          <div>
+            <h3>Animations</h3>
+          </div>
+        </div>
+        <div class="block-3 block-left">
+          <div>
+            <h3>. . .</h3>
+          </div>
+        </div>
+      </section>
+      <br>
+      <h2>Qualifications<span class="bounce">💡</span></h2>
+      <p>Why you should hire me</p>
+      <div class="qual-txt-wrapper">
+        <h3 id="select-edu" class="qual-txt colored"><span><i class="material-icons">school</i></span><span>Education</span></h3>
+        <h3 id="select-work" class="qual-txt"><span><i class="material-icons">work</i></span><span>Work </span></big>
+      </h3>
+      </div>
+      <ul class="timeline" id="education-block">
+        <li class="timeline-item">
+          <div>
+          <h4>Computer Science</h4>
+          <p>Lasustech, Nigeria</p>
+          <p class"time-text"><i class="material-icons">event</i> 2024 till date</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div>
+          <h4>Frontend Development</h4>
+          <p>Sololearn</p>
+          <p class"time-text"><i class="material-icons">event</i> 2021 - 2022</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div>
+          <h4>Frontend Development</h4>
+          <p>Programming Hero</p>
+          <p class"time-text"><i class="material-icons">event</i> 2020 - 2021</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div>
+          <h4>Web Development</h4>
+          <p>W3schools</p>
+          <p class"time-text"><i class="material-icons">event</i> 2020 till date</p>
+          </div>
+        </li>
+      </ul>
+      <ul class="timeline" id="work-block">
+        <li class="timeline-item">
+          <div>
+          <h4>Software Engineer</h4>
+          <p>InfinitySwap</p>
+          <p class"time-text"><i class="material-icons">event</i> 2024</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div>
+          <h4>Frontend Developer</h4>
+          <p>Gappay NG</p>
+          <p class"time-text"><i class="material-icons">event</i> 2024</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div>
+          <h4>Frontend Developer</h4>
+          <p>Code Byte Agency</p>
+          <p class"time-text"><i class="material-icons">event</i> 2023 till date</p>
+          </div>
+        </li>
+      </ul>
+      <br>
+      <center>
+        <h2>Start a project<span class="bounce">🚀</span></h2>
+        <p>Interested in working together? We should queue up a time to chat. I'll buy the coffee.</p>
       </center>
-  </main>
-
-
-  <footer>
-    <center>
-      <p class="ft">Living, learning, & leveling<br>
-        up one day at a time.
-        <br><br>
-        <br><br>
-        &copy; twentytwentythree,<br> Treasure Uzoma
-      </p>
-    </center>
-  </footer></area></div>
-  </center>
-  </div>
-  </div>
-  </center>
-</body>
-
-</html>
-<script>
+    </main>
+    <footer>
+      <center>
+        <hr>
+        <br><br><br>
+        <a href="https://www.facebook.com/profile.php?id=100085862181551" target="_blank"><i class="fab fa-facebook icon"></i></a>
+        <a href="https://twitter.com/TreasureUzoma1"><i class="fab fa-twitter icon"></i></a>
+        <a href="https://www.instagram.com/naira_jasper"><i class="fab fa-instagram icon"></i></a><br><br><br>
+        <a href="https://www.github.com/TreasureUzoma"><i class="fab fa-github icon"></i></a>
+        <a href="https://wa.me/+2349133354993"><i class="fab fa-whatsapp icon"></i></a>
+        <a href="mailto: treasureuzoma650@gmail.com"><i class="fa fa-envelope icon"></i></a>
+        <br><br><br>
+        <p><b>&copy; twentytwentyfour<br><br>Treasure Uzoma</b></p>
+      </center>
+    </footer>
+  </body>
+                                                                                                    </html>
