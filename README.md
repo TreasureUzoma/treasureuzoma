@@ -3,7 +3,7 @@
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=treasureuzoma&label=Profile%20views&color=0e75b6&style=flat" alt="treasureuzoma" /> </p>
 
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=treasureuzoma" alt="treasureuzoma" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=treasureuzoma&theme=onedark" alt="treasureuzoma" /></a> </p>
 
 - 🌱 I’m currently learning **React** and improving my **Tailwind CSS** skills.
 
