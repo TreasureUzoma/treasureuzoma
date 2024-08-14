@@ -9,16 +9,23 @@
 
 - 👨‍💻 Some of my projects are available at [treasureuzoma.vercel.app](treasureuzoma.vercel.app)
 
-- 📝 I regularly write articles on [treasureuzoma.vercel.app/blog](treasureuzoma.vercel.app/blog)
-
 - ⚡ Fun fact **I love debugging**
 
-<p align="center">Connect with me:</p>
-<p align="center">
-<a href="https://twitter.com/treasureuzoma1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="treasureuzoma1" height="30" width="40" /></a>
-<a href="https://instagram.com/naira_jasper" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="naira_jasper" height="30" width="40" /></a>
-</p>
-<h3 align="center">Stats:</h3>
+<p align='center'>
+<a href="wa.me/2349133354993" target="_blank">
+  <img src="https://img.shields.io/badge/WHATSAPP-%2325D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />
+</a>&nbsp;&nbsp;
+<a href="https://twitter.com/treasureuzoma1" target="_blank">
+  <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
+</a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/treasure-uzoma-40a789260" target="_blank">
+  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>&nbsp;&nbsp;
+<a href="mailto:treasureuzoma650@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
+</a>&nbsp;&nbsp;
+
+<p align="center">Stats:</p>
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=treasureuzoma&show_icons=true&locale=en&layout=compact" alt="treasureuzoma" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=treasureuzoma&show_icons=true&locale=en" alt="treasureuzoma" /></p>
