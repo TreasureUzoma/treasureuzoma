@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
 </a>&nbsp;&nbsp;
 
-## Some Github Stats;
+## Some Github Stats
 
 <p align="center">
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=treasureuzoma&show_icons=true&theme=transparent&count_private=true&hide=issues,prs" width="100%" />
