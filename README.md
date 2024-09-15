@@ -3,7 +3,7 @@
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=treasureuzoma&label=Profile%20views&color=0e75b6&style=flat" alt="treasureuzoma" /> </p>
 
-- 🌱 I’m currently learning **React** and improving my **Tailwind CSS** skills.
+- 🌱 I’m currently learning **React** and improving my overall skills.
 
 - 👨‍💻 Some of my projects are available at [treasureuzoma.vercel.app](treasureuzoma.vercel.app)
 
