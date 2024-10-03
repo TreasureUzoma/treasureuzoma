@@ -3,7 +3,7 @@
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=treasureuzoma&label=Profile%20views&color=0e75b6&style=flat" alt="treasureuzoma" /> </p>
 
-- 🌱 I’m currently learning **NextJS**, **Typescript** while improving my overall skills.
+- 🌱 I’m currently learning **NextJS** & **Typescript** while improving my overall skills.
 
 - 👨‍💻 Some of my projects are available at [treasureuzoma.netlify.app](treasureuzoma.netlify.app)
 
