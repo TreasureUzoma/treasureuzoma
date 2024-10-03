@@ -3,11 +3,11 @@
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=treasureuzoma&label=Profile%20views&color=0e75b6&style=flat" alt="treasureuzoma" /> </p>
 
-- 🌱 I’m currently learning **React** and improving my overall skills.
+- 🌱 I’m currently learning **NextJS**, **Typescript** while improving my overall skills.
 
-- 👨‍💻 Some of my projects are available at [treasureuzoma.vercel.app](treasureuzoma.vercel.app)
+- 👨‍💻 Some of my projects are available at [treasureuzoma.netlify.app](treasureuzoma.netlify.app)
 
-- ⚡ Fun fact **I love debugging**
+- ⚡ Fun fact **I love & enjoy debugging**
 
 <p align='center'>
 <a href="https://wa.me/2349133354993" target="_blank">
