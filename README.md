@@ -26,9 +26,6 @@
 ## Some Github Stats
 
 <p align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=treasureuzoma&show_icons=true&theme=transparent&count_private=true&hide=issues,prs" width="100%" />
-</p>
-<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=TreasureUzoma&show_icons=true&theme=radical" width ="100%" alt="GitHub Stats" />
 </p>
 <br />
@@ -36,4 +33,4 @@
  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TreasureUzoma&theme=radical" alt="GitHub Streak" width ="100%"/>
 </p>
 <p align="center">
- <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=TreasureUzoma&langs_count=6&layout=compact&theme=transparent" width="100%"> </p>
+ <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=TreasureUzoma&langs_count=6&layout=compact&theme=radical" width="100%"> </p>
