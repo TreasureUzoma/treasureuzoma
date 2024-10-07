@@ -29,10 +29,11 @@
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=treasureuzoma&show_icons=true&theme=transparent&count_private=true&hide=issues,prs" width="100%" />
 </p>
 <p align="center">
-  <img align="center" src="https://streak-stats.demolab.com/?user=treasureuzoma&theme=transparent" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=TreasureUzoma&show_icons=true&theme=radical" width ="100%" alt="GitHub Stats" />
 </p>
 <br />
 <p>
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=treasureuzoma&hide_progress=true&theme=transparent" width="100%"/>
+ <img src="https://github-readme-streak-stats.herokuapp.com/?user=TreasureUzoma&theme=radical" alt="GitHub Streak" width ="100%"/>
 </p>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=treasureuzoma&theme=discord" alt="Treasure Uzoma" /></a> </p>
+<p align="center">
+ <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=TreasureUzoma&langs_count=6&layout=compact&theme=transparent" width="100%"> </p>
