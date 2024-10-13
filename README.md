@@ -1,14 +1,16 @@
-<h1 align="center">Hi 👋, I’m Treasure Uzoma</h1>
-<p align="center">A passionate frontend developer from Nigeria with a love for web development, open source, and learning new technologies.</p>
+<h1>Hey 👋, I’m Treasure Uzoma!</h1>
+<p> <img src="https://komarev.com/ghpvc/?username=treasureuzoma&label=Profile%20views&color=0e75b6&style=flat" alt="treasureuzoma" /> </p>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=treasureuzoma&label=Profile%20views&color=0e75b6&style=flat" alt="treasureuzoma" /> </p>
+## About me  
+💡 My passion for creating exceptional user experiences drives me to design responsive, interactive interfaces that bring websites to life with vibrant and dynamic elements. I enjoy working with CSS and strive to develop visually appealing and distinct designs.
 
-- 🌱 I’m currently learning **NextJS** & **Typescript** while improving my overall skills.
+💼 I specialize in frontend development, utilizing modern tools like HTML, CSS, JavaScript, React, NextJs and TailwindCSS. My expertise also extends to technologies like Firebase, Bootstrap and Framer Motion.
 
-- 👨‍💻 Some of my projects are available at [treasureuzoma.netlify.app](treasureuzoma.netlify.app)
+📚 I’m always eager to learn new technologies and development techniques, and I enjoy sharing my knowledge with others. I’m committed to continuous growth, both as a developer and as an individual.
 
-- ⚡ Fun fact **I love & enjoy debugging**
+🌐 If you’re seeking an enthusiastic, goal-driven Frontend Developer ready to take on new challenges and add value to your project, feel free to reach out! I’d love to explore collaboration opportunities.
 
+## React Out 
 <p align='center'>
 <a href="https://wa.me/2349133354993" target="_blank">
   <img src="https://img.shields.io/badge/WHATSAPP-%2325D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />
