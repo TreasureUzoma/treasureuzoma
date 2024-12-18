@@ -10,7 +10,7 @@
 
 🌐 If you’re seeking an enthusiastic, goal-driven Frontend Developer ready to take on new challenges and add value to your project, feel free to reach out! I’d love to explore collaboration opportunities.
 
-## React Out 
+## Reach Out 
 <p align='center'>
 <a href="https://wa.me/2349133354993" target="_blank">
   <img src="https://img.shields.io/badge/WHATSAPP-%2325D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />
