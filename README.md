@@ -8,14 +8,13 @@
 
 📚 I’m always eager to learn new technologies and development techniques, and I enjoy sharing my knowledge with others. I’m committed to continuous growth, both as a developer and as an individual.
 
+🤘 I’m currently learning Golang.
+
 🌐 If you’re seeking an enthusiastic, goal-driven Frontend Developer ready to take on new challenges and add value to your project, feel free to reach out! I’d love to explore collaboration opportunities.
 
 ## Reach Out 
 <p align='center'>
-<a href="https://wa.me/2349133354993" target="_blank">
-  <img src="https://img.shields.io/badge/WHATSAPP-%2325D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />
-</a>&nbsp;&nbsp;
-<a href="https://twitter.com/treasureuzoma1" target="_blank">
+<a href="https://twitter.com/idolodev" target="_blank">
   <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
 </a>&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/treasure-uzoma-6ab8a7273" target="_blank">
